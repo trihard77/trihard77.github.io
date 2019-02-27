@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="home.html">Home</a>
+  <a href="aboutme.html">About me</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="resume.html">Resume</a>
+  <a href="tips.html">Tips</a>
+</div>
+
+<div class="main">
+  <h2>Tips</h2>
+
+
+<ol>
+  <li>Use your peers to help you out</li>
+  <li>When trying to create a website with more features, use W3 schools to spice up your website</li>
+  <li>Don't be afriad to ask for help, Mrs. Samoa gives out Wizard points to smart people so find your self a Wizard in the class to ask for help!</li>
+</ol> 
+
+<p id="demo">Bonus Tip.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "AP Computer Science is fun when you listen and pay attention!"'>Click Me!</button>
+
+<p></p><a href="https://docs.google.com/document/d/16VCz4-BYlw2desEFFNJwO1bELtNTiAEEVtyU4SgmqRw/edit" target="_blank">Asset Inventory</a> 
+
+<style>
+  body {
+    background-color: coral;
+}
